@@ -5,7 +5,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>hi</h1>
+      <h1>
+        Here's our Donut Ecommerce App! Let Kent know if you need help pushing
+        or pulling request from GitHub
+      </h1>
     </div>
   );
 }
