@@ -1,14 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+
+import Heading from "./components/heading";
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Here's our Donut Ecommerce App! Let Kent know if you need help pushing
-        or pulling request from GitHub
-      </h1>
+      <Heading />
     </div>
   );
 }
