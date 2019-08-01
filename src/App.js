@@ -1,15 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 import Heading from "./components/heading";
 import Footer from "./components/footer";
+import Auth from "./pages/auth";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Heading />
-      </div>
+      <Router>
+        <div>
+          <Heading />
+
+          <Switch>
+            <Route path="/auth" component={Auth} />
+          </Switch>
+        </div>
+      </Router>
+
       <div className="page-container">
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
