@@ -1,6 +1,5 @@
 import React from "react";
 
-import DonutLogo from "../images/donut.png";
 import KreepyDonutsLogo from "../images/kreepyDonuts2.png";
 
 class Heading extends React.Component {

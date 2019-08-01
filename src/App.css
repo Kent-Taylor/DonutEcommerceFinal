@@ -1,14 +1,21 @@
 body {
   background-color: #f5f2b8;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 0px;
 }
+
+/* Header */
 
 .donut-logo {
   background-color: #f9dad0;
@@ -23,4 +30,33 @@ body {
 .header img {
   height: 250px;
   width: auto;
+}
+
+/* Page Container */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 42px;
+}
+
+/* Footer */
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100vw;
+  background-color: #a491d3;
+  color: #f9dad0;
+  font-weight: 900;
+  font-size: 1.2em;
+  margin: 0px;
+}
+
+.footer-container img {
+  width: 135px;
 }
