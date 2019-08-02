@@ -38,7 +38,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 42px;
+  width: 100%;
+  padding-top: 42px;
 }
 
 /* Footer */
@@ -61,18 +62,51 @@ body {
   width: 135px;
 }
 
-.donut-background {
+/* suggestions box */
+.todays-suggestions {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
-  height: 100%;
 }
 
 .suggestions {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 100%;
+  justify-items: center;
+  align-items: center;
+  width: 70vw;
   height: 1000px;
-  align-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #818aa3;
+  color: #f9dad0;
+  margin: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.cards > .info {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
 }

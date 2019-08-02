@@ -11,8 +11,9 @@ function App() {
       <div>
         <Heading />
       </div>
-      <div className="page-container" />
-      <Homepage />
+      <div className="page-container">
+        <Homepage />
+      </div>
       <div>
         <Footer />
       </div>
