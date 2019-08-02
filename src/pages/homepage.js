@@ -6,6 +6,8 @@ import DonutCards from "../components/donut-cards";
 const Homepage = () => {
   return (
     <div className="homepage-container">
+      <QuickView />
+
       <div className="todays-suggestions">
         <h1>Today's Suggestions</h1>
         <div className="suggestions">
