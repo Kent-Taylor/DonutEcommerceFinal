@@ -16,11 +16,28 @@ body {
 }
 
 /* Header */
-
 .donut-logo {
   background-color: #f9dad0;
   color: white;
   width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hours-top {
+  color: white;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-top {
+  color: white;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .donut-logo img {

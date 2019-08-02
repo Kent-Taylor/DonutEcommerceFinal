@@ -7,9 +7,12 @@ class Heading extends React.Component {
     return (
       <div>
         <div className="donut-logo">
+          <div className="hours-top">6 AM - Midnight</div>
+
           <div className="header">
             <img src={KreepyDonutsLogo} alt="kreepy-donuts-logo" />
           </div>
+          <div className="phone-top">1-(800)-mydonut</div>
         </div>
       </div>
     );
