@@ -1,4 +1,5 @@
 import React from "react";
+import QuickView from "../components/quick-view";
 
 import DonutCards from "../components/donut-cards";
 
